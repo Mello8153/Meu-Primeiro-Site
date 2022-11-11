@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Um site de exemplo do modulo CSS">
+    <meta name="keywords" conten="Musculação, Aeróbico, hipertofia,">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <nav class="navbarra">
+        <div class="logo">
+            <h1>body & biomechanics</h1>
+        </div>
+
+        <div class="Menu">
+            <a href="#">Home</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Serviços</a>
+            <a id="botao" href="#">Contato</a>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div id="login-container">
+                <h1 class="Logintitulo">Login</h1>
+                <form action="">
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" id="email" placeholder="Digite seu e-email" autocomplete="off">
+                  <h3>Ou</h3>
+                  <label for="id">ID</label>
+                  <input type="id" name="ID" id="ID" placeholder="Digite seu ID" autocomplete="off">
+                  <label for="password">Senha</label>
+                  <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                  <a style=color:darkgray; href="#" id="forgot-pass">Esqueceu a senha?</a>
+                  <input type="submit" value="Login">
+                </form>
+                <div id="social-container">
+                  <p style=color:darkgray;>ou entre pelas suas redes sociais</p>
+                  <i class="fa fa-facebook-f"></i>
+                  <i class="fa fa-linkedin"></i>
+                </div>
+                <div id="register-container">
+                  <p style="color:darkgray;">Ainda não tem uma conta?</p>
+                  <a style="color: darkgray;" href="cadastrar.php">Registrar</a>
+                </div>
+              </div>
+
+        <div class="video-headline">
+            <video style="max-width: 100%; height: 100%;" controls loop src="img/pexels-tima-miroshnichenko-5319759.mp4"></video>
+        </div>
+    </header>
+
+    <section>
+      <h2>Conheça nossas modalidades</h2>
+      <div class="servicos">
+          <div class="card">
+              <img src="img/halteres.png">
+              <div class="card-text">
+                  <h3>Musculação</h3>
+                  <p>A musculação é um tipo de exercício realizado com pesos de diversas cargas, amplitude e tempo de contração, o que faz dela uma atividade altamente importnte para os dias atuais.
+
+                    A musculação está em alta nos dias atuais, além de ajudar a queimar gordura antes e após o treino, trabalha os músculos e modela o corpo</p>
+              </div>
+              <div class="texto-oculto">
+                  <h3>Salas equipadas</h3>
+                  <p>No nosso espaço, temos equipamentos para trabalhar todo o corpo, temos o Peck Deck que trabalha os músculos do peito e das costas, o Puxador com remada baixa que também trabalha a musculatura das costas, já o Leg Press, a Cadeira Extensora e Flexora, trabalham os músculos das pernas, o Graviton e o Smith.</p>
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/corrida.png">
+              <div class="card-text">
+                  <h3>Circuito Funcional</h3>
+                  <p>O circuito funcional nada mais é do que uma prática de exercícios funcionais realizados dentro de um percurso. Esta é uma prática que não necessita de pesos ou grandes aparelhos caros para a execução do mesmo. Isto é, o circuito funcional pode ser realizado até mesmo com o peso do próprio corpo. Incrível, não é mesmo?</p>
+              </div>
+              <div class="texto-oculto">
+                  <h3>Espaço Moderno</h3>
+                  <p>O circuito funcional é um tipo de treinamento funcional que pode ser uma opção para essas pessoas. Afinal, esse tipo de treino passa longe de ser algo repetitivo. Pelo contrário, a modalidade permite grande variação de exercícios e de estímulos corporais.Praticar em um circuito funcional garante versatilidade, pois nele é possível trabalhar o corpo tanto de maneira geral através de exercícios aeróbicos como em músculos isolados.</p>
+              </div>
+          </div>
+          <div class="card">
+              <img src="img/silhueta-de-boxe.png">
+              <div class="card-text">
+                  <h3>Boxe</h3>
+                  <p>Boxe ou pugilismo é um esporte de combate no qual os lutadores calçam luvas acolchoadas e utilizam as mãos para atacar e defender.
+
+                    O objetivo no boxe é desferir golpes para pontuar ou nocautear o oponente, seguindo um conjunto de regras predeterminadas. As lutas acontecem em um ringue de boxe, um tablado amortecido.</p>
+              </div>
+              <div class="texto-oculto">
+                  <h3>Melhores professores</h3>
+                  <p>Boxe ou pugilismo é um esporte de combate no qual os lutadores calçam luvas acolchoadas e utilizam as mãos para atacar e defender.
+
+                    O objetivo no boxe é desferir golpes para pontuar ou nocautear o oponente, seguindo um conjunto de regras predeterminadas. As lutas acontecem em um ringue de boxe, um tablado amortecido cercado de cordas que delimitam a área do combate.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <footer>
+    <div class="logo-rodape">
+        <h1 class="agencia">body & biomechanics</h1>
+        <p style="color:rgb(16, 15, 15)">Um site feito com HTML e CSS Puro</p>
+    </div>
+    <b style="color:rgb(20, 18, 18);">© Todos os direitos reservados.</b>
+</footer>
+<a class="whats" target="_blank"
+    href="https://api.whatsapp.com/send?phone=5511977705067&text=Ol%C3%A1%2C%20peguei%20seu%20contato%20no%20site"><img
+        style="width: 100px;" src="img/whats.png"></a>
+</body>
+
+</html>
+  
